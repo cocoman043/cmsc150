@@ -72,7 +72,7 @@ MullerMethod <- function(
     "given_x1" = given_x1,
     "given_x2" = given_x2,
     "x3" = x3,
-    "iterations" = num_iterations,
+    "iterations" = num_iterations - 1,
     "ea" = ea
   ))
 }
